@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- start of container -->
+        <div class="container">
+            <!-- progress bar -->
+            <div class="progress-bar"> 
+                <div class="progress-stage">
+                    <div class="check ">1</div>
+                    <div class="stage ">USER INFORMATION</div>
+                </div>
+
+            
+
+            
+                <div class="progress-stage">
+                    <div class="check">2</div>
+                    <div class="stage">ACQUISITION</div>
+                </div>
+
+            
+
+            
+                <div class="progress-stage">
+                    <div class="check">3</div>
+                    <div class="stage">CULTIVATION</div>
+                </div>
+
+            
+
+            
+                <div class="progress-stage">
+                    <div class="check">4</div>
+                    <div class="stage">CULTIVATION2</div>
+                </div>
+
+            
+
+            
+                <div class="progress-stage">
+                    <div class="check">5</div>
+                    <div class="stage">RETENTION</div>
+                </div>
+
+            </div>
+            <!-- progress bar  end-->
+
+            
+            <!-- form -->
+            <form id="donationform" action="">
+                <!-- basic-info section -->
+                <div class="form " >
+                    <div class="line"></div>
+                    <div class="title">
+                        <h3>BASIC INFORMATION</h3>
+                    <text class="sub-title">We just need some basic information to begin your scoring</text>
+                    </div>
+
+                    <div class="form-tabs">
+                        <p>
+                            <h6>What is your name?*</h6>
+                            <input type="text" id="name" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>What is your email address?*</h6>
+                            <input type="email" id="email" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>What is the total number in your constituent database?*</h6>
+                            <input type="number" id="number" oninput="this.className = ''">
+                        </p>
+                    </div>
+                    <div class="nav-btns">
+                        <div class="previous-btn btn"> <div class="navtext"> Previous</div> </div>
+                        <div class='next-btn btn'><div class="navtext"> Next </div></div>
+                    </div>
+                    
+                </div>
+                <!-- basic-info section end -->
+
+                <!-- acquisition section -->
+                <div class="form " >
+                    <div class="line"></div>
+                    <div class="title">
+                        <h3>Acquisition</h3>
+                        <text class="sub-title">We just need some basic information to begin your scoring</text>
+                    </div>
+
+                    <div class="form-tabs">
+                        <p>
+                            <h6>What was your number of total donors in year 1?*</h6>
+                            <input type="text" id="td-yr1" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>What was your number of total donors in year 2?*</h6>
+                            <input type="text" id="td-yr2" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>Total donors percentage change?*</h6>
+                            <input type="text" id="td-%" oninput="this.className = ''">
+                        </p>
+                    </div>
+                    <div class="nav-btns">
+                        <div class="previous-btn btn"> <div class="navtext"> Previous</div> </div>
+                        <div class='next-btn btn'><div class="navtext"> Next </div></div>
+                    </div>
+                   
+                </div>
+                <!-- acquisition section end -->
+
+                <!-- first-cultivation section -->
+                <div class="form " >
+                    <div class="line"></div>
+                    <div class="title">
+                        <h3>CULTIVATION AND NURTURING YOUR DONORS</h3>
+                        <text class="sub-title">We just need some basic information to begin your scoring</text>
+                    </div>
+
+                    <div class="form-tabs">
+                        <p>
+                            <h6>What was your average gift size in year 1?*</h6>
+                            <input type="text" id="yr1-gift" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>What was your average gift size in year 1?*</h6>
+                            <input type="text" id="yr2-gift" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>Average gift size percentage change</h6>
+                            <input type="text" id="gift-%" oninput="this.className = ''">
+                        </p>
+                    </div>
+                    <div class="nav-btns">
+                        <div class="previous-btn btn"> <div class="navtext"> Previous</div> </div>
+                        <div class='next-btn btn'><div class="navtext"> Next </div></div>
+                    </div>
+                   
+                </div>
+                <!-- first-cultivation section end -->
+
+                <!-- second-cultivation section -->
+                <div class="form " >
+                    <div class="line"></div>
+                    <div class="title">
+                        <h3>TOTAL CULTIVATION IN DONATION</h3>
+                        <text class="sub-title">We just need some basic information to begin your scoring</text>
+                    </div>
+
+                    <div class="form-tabs">
+                        <p>
+                            <h6>What was your total giving in year 1?*</h6>
+                            <input type="text" id="giving-yr1" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>What was your total giving in year 2?*</h6>
+                            <input type="text" id="giving-yr2" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>Average gift size percentage change</h6>
+                            <input type="text" id="giving-%" oninput="this.className = ''">
+                        </p>
+                    </div>
+                    <div class="nav-btns">
+                        <div class="previous-btn btn"> <div class="navtext"> Previous</div> </div>
+                        <div class='next-btn btn'><div class="navtext"> Next </div></div>
+                    </div>
+                    
+                </div>
+                <!-- second-cultivation section end -->
+
+                <!-- retention section -->
+                <div class="form " >
+                    <div class="line"></div>
+                    <div class="title">
+                        <h3>RETENTION OF YOUR DONORS</h3>
+                        <text class="sub-title">We just need some basic information to begin your scoring</text>
+                    </div>
+
+                    <div class="form-tabs">
+                        <p>
+                            <h6>What is your name?*</h6>
+                            <input type="text" id="name" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>What is your email address?*</h6>
+                            <input type="email" id="email" oninput="this.className = ''">
+                        </p>
+
+                        <p>
+                            <h6>What is the total number in your constituent database?*</h6>
+                            <input type="number" id="number" oninput="this.className = ''">
+                        </p>
+                    </div>
+                    <div class="nav-btns">
+                        <div class="previous-btn btn"> <div class="navtext"> Previous</div> </div>
+                        <div class='next-btn btn'><div class="navtext"> Next </div></div>
+                    </div>
+                    
+                </div>
+                <!-- retention section end -->
+                
+            </form>
+            <!-- form  end-->
+
+            <!-- navigation section -->
+            
+
+            <!-- end of navigation section -->
+
+        </div>
+       <!-- end of container -->
+       
+       <script src="form.js" ></script>
+    </body>
+    </html>
